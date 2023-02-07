@@ -1,0 +1,11 @@
+App(
+    appid="DumpKeystore",
+    name="DumpKeystore",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="dumpkeystore_app",
+    cdefines=["APP_DUMPKEYSTORE"],
+    requires=["gui"],
+    icon="A_Clock_14",
+    fap_icon_assets="images",
+)
+
